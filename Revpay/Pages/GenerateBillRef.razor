@@ -1,0 +1,47 @@
+﻿@page "/generate"
+
+
+<div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper">
+        <div class="content-wrapper d-flex align-items-center auth">
+            <div class="row w-100">
+                <div class="col-lg-6 mx-auto">
+                    <div class="auth-form-light text-left p-5">
+                        <h6>Generate bill Ref</h6>
+                        <form class="pt-3">
+                            <div class="form-group">
+                                <select class="form-control form-control-lg">
+                                    <optgroup label="Select Payer Category">
+                                        <option>Indiviual</option>
+                                        <option>Corporate</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Insert payer ID">
+                            </div>
+                            <div class="text-center mt-4 form-group font-weight-light">
+                                <a href="#" class="btn btn-primary">Verify Payer</a>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Idris Abebefe">
+                            </div>
+                            <div class="text-center mt-4 font-weight-light">
+                                <a href="#" class="btn btn-primary">Generate bill Ref</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+
+
+@code {
+
+}
